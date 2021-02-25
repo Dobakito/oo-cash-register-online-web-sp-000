@@ -37,8 +37,6 @@ class CashRegister
   
   def void_last_transaction
   @total -= @price
-    if @items == nil
-     @total = 0
-   end
   end 
+  
 end 
